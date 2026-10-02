@@ -39,20 +39,29 @@ The high-voltage section is kept insulated and separated from accessible parts o
 
 Photos of the project are included in the `images` folder.
 
-Suggested structure:
+Project structure:
 
 ```text
 Ground-Zero/
 ├── README.md
+├── docs/
+│   └── project-notes.pdf
+├── gerbers/
+│   ├── hack-B_Cu.gbr
+│   ├── hack-B_Mask.gbr
+│   ├── hack-B_Paste.gbr
+│   ├── hack-B_Silkscreen.gbr
+│   ├── hack-Edge_Cuts.gbr
+│   ├── hack-F_Cu.gbr
+│   ├── hack-F_Mask.gbr
+│   ├── hack-F_Paste.gbr
+│   ├── hack-F_Silkscreen.gbr
+│   └── hack-job.gbrjob
 ├── images/
-│   ├── circuit.jpg
+│   ├── circuit.png
 │   ├── schematic.png
-│   ├── build.jpg
-│   └── final.jpg
-└── kicad/
-    ├── project.kicad_pro
-    ├── project.kicad_sch
-    └── project.kicad_pcb
+│   ├── build.png
+│   └── final.png
 ```
 
 ### Adding a photo
@@ -60,18 +69,18 @@ Ground-Zero/
 Place the photo inside the `images` folder and reference it in the README using:
 
 ```markdown
-![Circuit](images/circuit.jpg)
+![Circuit](images/circuit.png)
 ```
 
 For example:
 
 ### Circuit
 
-![Circuit](images/circuit.jpg)
+![Circuit](images/circuit.png)
 
 ### Finished Build
 
-![Finished Build](images/final.jpg)
+![Finished Build](images/final.png)
 
 ## What I Learned
 
