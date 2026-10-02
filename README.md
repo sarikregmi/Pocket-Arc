@@ -107,3 +107,11 @@ This project contains a high-voltage circuit. The high-voltage output should rem
 ## License
 
 This project is provided for educational and experimental purposes.
+Project Status
+Part	Status
+Circuit idea	✅ Complete
+Prototype	✅ Working
+KiCad schematic	✅ Designed
+PCB layout	✅ Designed
+Manufactured PCB	⏳ Not tested
+Final PCB test	⏳ Pending
